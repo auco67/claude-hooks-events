@@ -1,0 +1,12 @@
+2026-11-16 11:49:42: Stopフックが発火しました
+2026-11-16 11:49:45: Stopフックが発火しました
+2026-11-16 11:51:11: Stopフックが発火しました
+2026-11-16 13:54:50: PreToolUseフックが発火しました。コマンド: ls
+2026-11-16 13:54:52: Stopフックが発火しました
+2026-11-16 15:01:06: PreToolUseフックが発火しました。コマンド: ls -a && cat package.json 2>/dev/null
+2026-11-16 15:01:09: PostToolUseフックが発火しました。ファイル: /home/ayuko/projects/claude-hooks-events/.prettierrc.json
+2026-11-16 15:01:12: Stopフックが発火しました
+2026-11-16 15:52:27: PostToolUseフックが発火しました。ファイル: /home/ayuko/projects/claude-hooks-events/src/sample.js
+2026-11-16 15:52:28: Prettierでフォーマットしました: /home/ayuko/projects/claude-hooks-events/src/sample.js
+2026-11-16 15:52:30: PreToolUseフックが発火しました。コマンド: tail -4 hooks.log; echo ---; cat src/sample.js; echo ---; node node_modules/prettier/bin/prettier.cjs --check src/sample.js 2>&1 | tail -1; node src/sample.js | tail -2
+2026-11-16 15:52:36: Stopフックが発火しました
